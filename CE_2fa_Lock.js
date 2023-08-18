@@ -46,8 +46,8 @@ xapi.Config.WebEngine.mode.set('on').catch((error) => { console.error("initial s
 
 // Duo API requests need to be digitally signed
 // Cisco room OS lacks required functions, hence imported here
-import {Crypto} from './20230817_CE_2fa_crypto_V1.1'
-import {createPanel} from './20230817_CE_2fa_ui_objects_V1.1'
+import {Crypto} from './CE_2fa_crypto'
+import {createPanel} from './CE_2fa_ui_objects'
 
 // Get the party started
 function init() {
