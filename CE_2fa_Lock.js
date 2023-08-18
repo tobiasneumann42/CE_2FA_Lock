@@ -24,9 +24,9 @@ const xapi = require('xapi');
 const domain = "tobiplayground.wbx.ai";
 
 // Duo API parameters from Duo admin interface
-const duoApiHostname = "api-bfc6a42e.duosecurity.com";
-const duoIntegrationKey = "DIEOP2QGR8KL9VIHH0DW";
-const duoSecretKey = "bjAe7ZeP7kZrzN2RFpaiZpCiHXPj8n87PMyR6bUK";
+const duoApiHostname = "api-<key>.duosecurity.com";
+const duoIntegrationKey = "<integration key>";
+const duoSecretKey = "<secret key>";
 const duoPreAuthURL = "/auth/v2/preauth"
 const duoAuthURL = "/auth/v2/auth"
 
